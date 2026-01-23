@@ -5,41 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Robert Arslanov – CV</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <main>
-    <h1>Robert Arslanov</h1>
-    <p class="subtitle">Étudiant à l’École 42 — Stage cybersécurité</p>
-
-    <p>
-      <a href="assets/CV_Robert.pdf" target="_blank">
-        📄 Télécharger le CV (PDF)
-      </a>
-    </p>
-
-    <section>
-      <h2>Profil</h2>
-      <p>
-        Étudiant à l’École 42, orienté systèmes Linux et programmation.
-        À la recherche d’un stage généraliste en cybersécurité.
+  <main class="container">
+    <!-- HEADER -->
+    <header>
+      <h1>Robert Arslanov</h1>
+      <p class="contact">
+        <a href="mailto:robert.arslanov@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a> · 
+        <a href="https://github.com/Robzzz95" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
       </p>
-    </section>
+      <p class="subtitle">Étudiant à l’École 42 — Recherche stage ou alternance</p>
+      <p>
+        <a href="assets/CV_Robert.pdf" target="_blank" class="download-btn">
+          <i class="fa-solid fa-file-pdf"></i> Télécharger le CV (PDF)
+        </a>
+      </p>
+    </header>
 
-    <section>
-      <h2>Compétences clés</h2>
-      <ul>
-        <li>Linux, TCP/IP, sockets, TLS</li>
-        <li>C, C++, Bash, TypeScript (Node.js)</li>
-        <li>Docker, Docker Compose</li>
-        <li>Git, Makefile</li>
-      </ul>
-    </section>
+    <!-- MAIN CONTENT -->
+    <div class="main-grid">
+      <!-- LEFT COLUMN -->
+      <div class="left-column">
+        <section>
+          <h2>Compétences techniques</h2>
+          <ul>
+            <li><strong>Langages :</strong> C, C++, Bash/Shell, TypeScript (Node.js)</li>
+            <li><strong>Systèmes & Réseaux :</strong> Linux, TCP/IP, sockets, TLS</li>
+            <li><strong>Web :</strong> Fastify, Prisma, HTML, Tailwind CSS, SQLite, MariaDB</li>
+            <li><strong>DevOps :</strong> Docker, Docker Compose</li>
+            <li><strong>Outils :</strong> Git, Make, LaTeX</li>
+          </ul>
+        </section>
 
+        <section>
+          <h2>Langues</h2>
+          <ul>
+            <li>Français (courant)</li>
+            <li>Anglais (courant)</li>
+            <li>Russe (langue maternelle)</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="right-column">
+        <section>
+          <h2>Projets – École 42</h2>
+          <ul>
+            <li><strong>Minishell (C, Linux)</strong> – Implémentation d’un shell Unix : gestion des processus, pipes, redirections, signaux et variables d’environnement.</li>
+            <li><strong>ft_irc (C++, Réseau)</strong> – Développement d’un serveur IRC : sockets TCP, gestion multi-clients, authentification et logique protocolaire.</li>
+            <li><strong>ft_transcendence (Web, Fullstack)</strong> – Application web avec authentification, gestion des utilisateurs et communication en temps réel côté serveur.</li>
+            <li><strong>Inception (Docker, DevOps)</strong> – Déploiement d’une infrastructure multi-services conteneurisée : isolation, réseaux Docker et configuration sécurisée.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Expérience</h2>
+          <p><strong>Employé polyvalent – intérim et missions indépendantes</strong> (Depuis 2022)</p>
+          <p>
+            Expérience polyvalente en restauration et logistique, acquise à travers des missions variées dans des contextes exigeants : autonomie, communication, réactivité et sens des responsabilités.
+          </p>
+        </section>
+
+        <section>
+          <h2>Formation</h2>
+          <ul>
+            <li><strong>École 42 Paris</strong> – Formation en architecture et technologies du numérique (Depuis 2023)</li>
+            <li><strong>BTS Électrotechnique CNED</strong> – Diplôme obtenu (2022)</li>
+            <li><strong>Université Paris Diderot (Paris 7)</strong> – Licence de physique, niveau L2</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Centres d’intérêt</h2>
+          <p>Programmation, CTF, bénévolat, jeux vidéo.</p>
+        </section>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
     <footer>
-      <p>
-        <a href="https://github.com/Robzzz95">GitHub</a> ·
-        <a href="mailto:robert.arslanov@gmail.com">Email</a>
-      </p>
+      <p>© Robert Arslanov – <a href="mailto:robert.arslanov@gmail.com">robert.arslanov@gmail.com</a></p>
     </footer>
   </main>
 </body>
